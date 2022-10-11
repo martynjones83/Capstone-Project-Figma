@@ -92,9 +92,9 @@ color: #F6F7F1;
 }
 /* header end*/
 
-/* upper middle start*/
+/* main start*/
 
-.upper-middle {
+.main {
 position: absolute;
 width: 393px;
 height: 852px;
@@ -136,7 +136,7 @@ h2 span {
 color: #F14C36;
 }
 
-.upper-middle-text {
+.main-text {
 position: absolute;
 width: 343px;
 height: 60px;
@@ -150,10 +150,8 @@ line-height: 20px;
 text-align: center;
 color: #29182E;
 }
-/* upper middle end*/
 
-/* lower middle start*/
-.lower-middle {
+.main-text {
 position: absolute;
 width: 393px;
 height: 852px;
@@ -162,7 +160,7 @@ top: 1704px;
 background: #F6F7F1;
 }
 
-.lower-title {
+.title {
 position: absolute;
 width: 343px;
 height: 60px;
