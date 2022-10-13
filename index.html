@@ -5,62 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fakebook</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4f181f9dc8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <span class="fakebook">fakebook</span>
-        </nav>
-        <h1 class="title-text">connecting the world</h1>
-        <p class="title-body">A next-gen social networking service, empowering the user, making universal connectivity both uninstrusive and immersive.</p>
-    <div class="get-started"> <span>get started</span></div>
-    <section class="header-image">
-        <img src="/Assets/header-img.png" alt="header image">
-    </header>
-    <!--main start-->
-    <section class="main">
-        <section class="phone">
-        <img src="\Assets\phone-mockup.png" alt="phone image">
+
+  <!--header start-->
+<header>
+  <nav>
+    <ul class="top-bar">
+    <li class="logo">fakebook</li>
+    <li class="button first">get started</li>
+    </ul>
+  </nav>
+<section class="hero">
+  <div class="header-text">
+    <h1>connecting the world</h1>
+    <p>A next-gen social networking service, empowering the user, making universal connectivity both uninstrusive and immersive. </p>
+  </secton>
+  <a class="button second" src="">get started</a>
+  <img src="./Assets/header-img.png" alt="">
+</div>
+</header>
+<!--header end-->
+
+<!--main start-->
+<main>
+  <div class="focus">
+    <section>
+      <article class="focused">
+        <img class="phone" src='./Assets/phone-mockup.png' alt="phone">
+        <h1>focused on <span style="color:#F14C36">social </span><span style="color:#436B2C">integrity</span></h1>
+        <p>Avoiding the sharing functionality, you can focus on showcasing your best self without hesitation.</p>
+      </article>
     </section>
-    <h2>focused on <span> social </span> integrity</h2>
-    <p class="main-text">Avoiding the sharing functionality, you can focus on showcasing your best self without hesitation.</p>
+  </div>
+  <div class="focused-section">
+    <h1>say hello to an open platform</h1>
+    <article style="color:#F14C36" class="media">
+      <i class="fa-regular fa-square"></i>
+      <h3>unity</h3>
+      <p>Ensuring peace of mind for all our users, share only what you want. You are in full control of yourself with us.</p>
+    </article>
+    <article style="color:#436B2C"class="media">
+      <i class="fa-solid fa-user-lock"></i>
+      <h3>privacy</h3>
+      <p>With limitless privacy toggle functionality, we will only ever use your data to provide the best experience for you.</p>
+    </article>
+    <article style="color:#ECB20D" class="media">
+      <i class="fa-solid fa-volume-high"></i>
+      <h3>clarity</h3>
+      <p>We will always notify you of any changes affecting you, and will never breach our promise of a clear, open network.</p>
+    </article>
+  </div>
+<!--main end-->
 
-    </section>
-    <section class="main-text">
-        <h2 class="title">Say Hello to an Open platform</h2>
-        <div class="key-articles">
-            <article class="unity-title">
-                <img class="unity-logo" src="Assets/Vector-2.png" alt"">
-                <h3 class="unityh3">unity</h3>
-                <p class="unity-text">Ensuring peace of mind for all our users, share only what you want. You are in full control of yourself with us.</p>
+<!--footer start-->
+<footer>
+  <p class="logo">fakebook</p>
+  <ul>
+    <li>get started</li>
+    <li>about</li>
+    <li>jobs</li>
+    <li>help</li>
+    <li>privacy policy</li>
+    <li>cookies policy</li>
+  </ul>
+  <p>Copyright FAKEBOOK 2022</p>
+  <i class="fa-brands fa-github"></i><a href=''>Github code</a>
+</footer>
+<!--footer end-->
 
-            </article>
-            <article class="privacy-title">
-                <h3 class="privacyh3">privacy</h3>
-                <p class="privacy-text">With limitless privacy toggle functionality, we will only ever use your data to provide the best experience for you.</p>
-
-            </article>
-            <article class="clarity-title">
-                <h3 class="clarityh3">clarity</h3>
-                <p class="clarity-text">We will always notify you of any changes affecting you, and will never breach our promise of a clear, open network.</p>
-
-            </article>
-
-        </div>
-
-    </section>
-    <!--main end-->
-
-    <footer>
-    <!--footer start-->
-    <div class="fakebook"> <span>fakebook</span></div>
-        <span class="footer-links">get started about jobs help privacy policy cookies policy</span>
-    <!--footer end-->
-    </footer>
+</main>
 </body>
 </html>
-
